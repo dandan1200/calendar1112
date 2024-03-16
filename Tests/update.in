@@ -1,0 +1,8 @@
+python calendar.py ADD 10-10-2000 "Birthday Party" "At Home"
+python calendar.py ADD 10-10-2000 "Meeting" "In park"
+python calendar.py ADD 13-10-2000 "Dinner" "At Home"
+python calendar.py GET INTERVAL 10-01-1999 10-10-2001
+python calendar.py UPD 13-10-2000 "Dinner" "New Dinner" "At resteraunt"
+python calendar.py UPD 10-10-2000 "Meeting" "Meeting" "At cafe"
+python calendar.py GET INTERVAL 10-01-1999 10-10-2001
+

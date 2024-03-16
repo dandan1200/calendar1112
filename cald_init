@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+
+start() {
+    python3 ~/cald/Daemon.py
+}
+
+restart(){=
+    pkill python3
+    python3 ~/cald/Daemon.py
+}
+  
+stop() {
+    pkill python3
+}
